@@ -15,5 +15,10 @@ namespace SolidExamples.Models
             Email = email;
             Password = password;
         }
+
+        public void GenerateUserReport(User user)
+        {
+            //generate report about a user
+        }
     }
 }

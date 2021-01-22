@@ -27,7 +27,10 @@ namespace SolidExamples.Services
 
         public void SendEmail(MailMessage message)
         {
+            var logger = new Logger();
+            logger.Log("sending email");
             _smtpClient.Send(message);
+            logger.Log("done");
         }
     }
 }
