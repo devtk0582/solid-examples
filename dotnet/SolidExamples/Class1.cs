@@ -2,7 +2,7 @@
 
 namespace SolidExamples
 {
-    public class Class1
+    public class TestClass
     {
     }
 }
